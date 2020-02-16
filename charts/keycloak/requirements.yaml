@@ -1,5 +1,5 @@
 dependencies:
   - name: postgresql
-    version: master
-    repository: https://github.com/bitnami/charts.git
+    version: 6.3.13
+    repository: https://kubernetes-charts-incubator.storage.googleapis.com/
     condition: keycloak.persistence.deployPostgres
